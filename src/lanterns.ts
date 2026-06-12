@@ -339,7 +339,7 @@ export function createLanterns(
   ];
 
   const params = {
-    scale: 1.6,
+    scale: 2.33,
     heat: 0.95, buoyancy: 5.2, goo: 0.015,
     glow: 0.9, lightIntensity: 5.0,
   };
