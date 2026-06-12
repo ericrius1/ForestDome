@@ -1,0 +1,21 @@
+{
+  "name": "dome-forest",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.184.0",
+    "three-mesh-bvh": "^0.9.10",
+    "tweakpane": "^4.0.5"
+  },
+  "devDependencies": {
+    "@types/three": "^0.184.0",
+    "@webgpu/types": "^0.1.70",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}
